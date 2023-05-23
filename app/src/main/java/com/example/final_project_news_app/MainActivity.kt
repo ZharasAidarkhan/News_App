@@ -28,14 +28,6 @@ class MainActivity : AppCompatActivity() {
 
         bottom_nav_menu.setupWithNavController(
             navController = nav_host_fragment.findNavController())
-
-//      CoroutineScope(Dispatchers.Main).launch {
-//           delay(5000)
-//                binding = ActivityMainBinding.inflate(layoutInflater)
-//               setContentView(mBinding.root)
-//               bottom_nav_menu.setupWithNavController(
-//               navController = nav_host_fragment.findNavController())
-//        }
     }
 
     override fun onDestroy() {
